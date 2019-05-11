@@ -9,5 +9,5 @@ router.register('lugares', views.LocationView)
 router.register('secciones', views.SectionView)
 
 urlpatterns = [
-    path('store', include(router.urls))
+    path('store/', include(router.urls))
 ]
